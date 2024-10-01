@@ -1,0 +1,19 @@
+{
+  "name": "@immerspiele/boom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.0"
+  },
+  "exports": {
+    "./signal": {
+      "types": "./dist/signal.d.ts",
+      "import": "./dist/signal.mjs",
+      "require": "./dist/signal.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  }
+}
