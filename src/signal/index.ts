@@ -1,7 +1,7 @@
 export type SignalArguments = any[];
 export type SignalCallback<Arguments extends SignalArguments> = (...args: Arguments) => void;
 export type SignalDisposer = () => void;
-export type SignalUnsubscriber = (callback: SignalCallback<any>) => void;
+export type SignalUnsubscriber = (callback?: SignalCallback<any>) => void;
 export type SignalSubscriber<Arguments extends SignalArguments> = (
   callback: SignalCallback<Arguments>,
 ) => SignalDisposer;
