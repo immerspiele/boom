@@ -16,5 +16,7 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Install @rollup/rollup-linux-x64-gnu
+        run: npm install @rollup/rollup-linux-x64-gnu
       - name: Run tests
         run: npm test
