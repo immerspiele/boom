@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:immerspiele/boom.git"
+  },
   "devDependencies": {
     "happy-dom": "^15.7.4",
     "tsup": "^8.3.0",
