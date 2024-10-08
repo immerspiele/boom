@@ -1,6 +1,6 @@
 {
   "name": "@immerspiele/boom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "license": "MIT",
   "files": [
@@ -24,12 +24,14 @@
     "./signal": {
       "types": "./dist/signal.d.ts",
       "import": "./dist/signal.mjs",
-      "require": "./dist/signal.js"
+      "require": "./dist/signal.js",
+      "default": "./dist/signal.mjs"
     },
     "./screen": {
       "types": "./dist/screen.d.ts",
       "import": "./dist/screen.mjs",
-      "require": "./dist/screen.js"
+      "require": "./dist/screen.js",
+      "default": "./dist/screen.mjs"
     }
   },
   "scripts": {
