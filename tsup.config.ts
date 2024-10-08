@@ -4,6 +4,7 @@ export default defineConfig({
   outDir: 'dist',
   entry: {
     signal: 'src/signal/index.ts',
+    screen: 'src/screen/index.ts'
   },
   clean: true,
   treeshake: true,
