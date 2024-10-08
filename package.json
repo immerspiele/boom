@@ -5,7 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:immerspiele/boom.git"
+    "url": "git+ssh://git@github.com/immerspiele/boom.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "happy-dom": "^15.7.4",
